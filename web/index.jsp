@@ -4,7 +4,7 @@
    </head>
    
    <body>
-      <jsp:useBean id="students" class="bach.dev.StudentBean" scope="page">
+      <jsp:useBean id="students" class="tung.dev.StudentBean" scope="page">
          <jsp:setProperty name = "students" property = "firstName" value = "Jack"/>
          <jsp:setProperty name = "students" property = "lastName" value = "Lust"/>
          <jsp:setProperty name = "students" property = "age" value = "50"/>
